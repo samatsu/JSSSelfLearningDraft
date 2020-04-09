@@ -62,3 +62,4 @@ placeholders:
     - componentName: HelloWorld
       fields:
         heading: Hello World!
+    - componentName: Exercise3Component
