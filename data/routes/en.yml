@@ -72,3 +72,24 @@ placeholders:
             <li>bullet 1</li>
             <li>bullet 2</li>
           </ul>
+    - componentName: Exercise5Component
+      fields:
+        singlelinetextfield: Single Line Text Data
+        multilinetextfield: |
+          multi line
+          sample text
+        richtextfield: <h3>RichText Data</h3>
+        imagefield:
+          src: /data/media/img/jss_logo.png
+          class: sample
+          alt: JSS Workshop
+        generallinkfield:
+          href: /styleguide
+          title: Style Guide
+          text: Go To Style
+        datefield: "2019-05-04T00:00:00Z"
+        datetimefield: "2020-01-01T24:00:00Z"
+        filefield:
+          src: /data/media/files/jss.pdf
+          title: jss sample document
+  
