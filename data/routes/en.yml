@@ -63,3 +63,12 @@ placeholders:
       fields:
         heading: Hello World!
     - componentName: Exercise3Component
+    - componentName: Exercise4Component
+      fields:
+        heading: RichText Sample
+        content: |
+          <p>Unordered List</p>
+          <ul>
+            <li>bullet 1</li>
+            <li>bullet 2</li>
+          </ul>
