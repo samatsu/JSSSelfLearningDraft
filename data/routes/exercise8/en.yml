@@ -1,0 +1,11 @@
+id: exercise-8
+placeholders:
+  jss-main:
+    - componentName: Exercise8Component
+      fields:
+        sharedItemLink:
+          id: styleguide-item-link-field-shared-1
+        localItemLink:
+          template: Styleguide-ItemLink-Item-Template
+          fields:
+            textField: Referenced Item text Field
