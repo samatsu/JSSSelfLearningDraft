@@ -1,0 +1,12 @@
+id: exercise-7
+template: News Route
+fields:
+  newsTitle: News One Title
+  newsDescription: |
+    This is <b>News One Description</b>
+  newsImage : 
+    src: /data/media/img/jss_logo.png
+    alt: JSS Workshop
+placeholders:
+  jss-main:
+    - componentName: Exercise7Component
