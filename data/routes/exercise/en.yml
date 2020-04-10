@@ -1,0 +1,6 @@
+id: exercise-page
+fields:
+  pageTitle: Route Page Title
+placeholders:
+  jss-main:
+    - componentName: Exercise6Component

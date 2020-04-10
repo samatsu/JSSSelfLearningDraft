@@ -72,6 +72,9 @@ placeholders:
             <li>bullet 1</li>
             <li>bullet 2</li>
           </ul>
+      params:
+        cssClass: blue
+        buttonText: Button Sample
     - componentName: Exercise5Component
       fields:
         singlelinetextfield: Single Line Text Data
