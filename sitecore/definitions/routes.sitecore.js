@@ -34,6 +34,19 @@ export default function addRoutesToManifest(manifest) {
     ],
     insertOptions: ['App Route'],
   });
+
+  const newsTemplateSection = 'News';
+  manifest.addRouteType({
+    name: 'News Route',
+    fields:[
+      { name: 'newsTitle', displayName: 'News Title', 
+        section: newsTemplateSection, type: CommonFieldTypes.SingleLineText },
+      { name: 'newsDescription', displayName: 'News Description', 
+        section: newsTemplateSection, type: CommonFieldTypes.RichText },
+      { name: 'newsImage', displayName: 'News Image', 
+        section: newsTemplateSection, type: CommonFieldTypes.Image }
+    ]
+  });
   
   return mergeFs('./data/routes') // relative to process invocation (i.e. your package.json)
     .then((result) => convertToRoutes(result, manifest.language))
