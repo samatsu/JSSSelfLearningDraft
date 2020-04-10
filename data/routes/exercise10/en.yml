@@ -1,0 +1,9 @@
+id: exercise-10
+placeholders:
+  jss-main:
+    - componentName: Exercise10Component
+      placeholders:
+        jss-left:
+          - componentName: Exercise3Component
+        jss-right:
+          - componentName: Exercise3Component

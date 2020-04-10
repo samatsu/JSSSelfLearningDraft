@@ -2,6 +2,11 @@ a[target='_blank']:after {
   content: '\1F5D7'
 }
 
+.jss-two-col { width: 100%;}
+.jss-two-col .jss-left { position: relative; width: 50%; float:left; }
+.jss-two-col .jss-right { position: relative; width: 50%; float:left; }
+
+
 /*
   Hides Sitecore Experience Editor markup,
   if you run the app in connected mode while the Sitecore cookies
