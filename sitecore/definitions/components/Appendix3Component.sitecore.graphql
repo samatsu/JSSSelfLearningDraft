@@ -1,0 +1,40 @@
+query LinkSampleQuery($datasource: String!, $contextItem: String!) {
+  datasource(value: $datasource) {
+    id
+    name
+    ... on Appendix3Component {
+      singleItem1 {
+        name
+        id
+        targetItem {
+          name
+        	... on AppRoute{
+            pageTitle{
+              jss
+              value
+            }
+          }
+          url
+        }
+      }
+      multiItem1{
+        name
+        id
+        targetItems{
+          name
+          ... on AppRoute{
+            pageTitle{
+              jss
+              value
+            }
+          }
+          url
+        }
+      }
+    }
+  }
+  item(path: $contextItem) {
+    id
+    name
+  }
+}

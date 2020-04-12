@@ -6,7 +6,7 @@
   "config": {
     "appName": "my-first-jss-app",
     "rootPlaceholders": [
-      "jss-main"
+      "jss-main", "jss-left"
     ],
     "sitecoreDistPath": "/dist/my-first-jss-app",
     "sitecoreConfigPath": "/App_Config/Include/zzz",

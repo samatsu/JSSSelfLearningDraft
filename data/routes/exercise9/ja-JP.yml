@@ -1,0 +1,12 @@
+id: exercise-9
+template: News Route
+fields:
+  newsTitle: ニュースタイトル
+  newsDescription: |
+    これは<b>ニュースの説明です</b>
+  newsImage : 
+    src: /data/media/img/jss_logo.png
+    alt: JSS　ワークショップ
+placeholders:
+  jss-main:
+    - componentName: Exercise9Component

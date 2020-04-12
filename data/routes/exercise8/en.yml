@@ -7,5 +7,6 @@ placeholders:
           id: styleguide-item-link-field-shared-1
         localItemLink:
           template: Styleguide-ItemLink-Item-Template
+          name: hello1234
           fields:
             textField: Referenced Item text Field

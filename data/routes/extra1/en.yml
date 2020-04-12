@@ -1,0 +1,6 @@
+id: extra-1
+placeholders:
+  jss-main:
+    - componentName: Appendix1Component
+      fields:
+        heading: Dictionary Sample

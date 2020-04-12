@@ -1,0 +1,14 @@
+query Appendix4Query($contextItem: String!) {
+  item(path: $contextItem) {
+    name
+    displayName
+    language {
+      icon
+    }
+    url
+    children(requirePresentation: true) {
+      name
+      url
+    }
+  }
+}

@@ -1,0 +1,8 @@
+id: apdx3-sample
+componentName: Appendix3Component
+fields:
+  SingleItem1:
+    - id: styleguide
+  MultiItem1:
+    - id: exercise-7
+    - id: exercise-page

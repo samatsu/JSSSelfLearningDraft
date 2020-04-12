@@ -95,4 +95,5 @@ placeholders:
         filefield:
           src: /data/media/files/jss.pdf
           title: jss sample document
+    - componentName: Appendix4Component
   
